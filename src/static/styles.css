@@ -99,6 +99,28 @@ section h3 {
   padding: 4px 8px;
   border-radius: 999px;
   font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.participant-email {
+  display: inline-block;
+}
+
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #b71c1c;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background-color: rgba(183,28,28,0.08);
 }
 
 .muted {
